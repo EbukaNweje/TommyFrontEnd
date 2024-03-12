@@ -37,7 +37,7 @@ const SignUp = () => {
     console.log(message);
 
     const Data = {fullName, userName, email, retypeEmail, password, confirmPassword, phoneNumber}
-    const url = "https://badboibackend.onrender.com/api/register"
+    const url = "https://tommybackend.onrender.com/api/register"
 
     // console.log(url)
 
