@@ -19,6 +19,8 @@ import {Link} from 'react-router-dom'
 // import Qrcodeset from './Setting/Qrcodeset'
 
 const Dashboard2 = () => {
+  const user =  JSON.parse(localStorage.getItem('User'))
+  console.log(user._id)
   return (
     <Container>
         <Wrapper>
@@ -47,6 +49,13 @@ const Dashboard2 = () => {
         <GiShakingHands style={{width: 30, height: 30, color: "silver"}}/>
         <Title>Confirm Orders</Title>
       </Hold>
+      {
+        user.status? 
+        <Hold to='/updateuser'>
+        <GiShakingHands style={{width: 30, height: 30, color: "silver"}}/>
+        <Title>Update User</Title>
+      </Hold>: null
+   }
       {/* <Hold to='/updateuser'>
         <GiShakingHands style={{width: 30, height: 30, color: "silver"}}/>
         <Title>Update User</Title>
