@@ -20,7 +20,7 @@ const Hero3 = () => {
             <Div1>
                 <H1 data-aos="fade-down">Putting our investors first is <span style={{textDecoration: "10px solid orange"}}>Key</span></H1>
                 <H4>We are committed to providing all our investors with exceptional service while offering our team the best training.</H4>
-                <P data-aos="fade-down">The preeminent crypfield is an International online broker that has been actively operating in the Crypto & Stocks Trading trading markets. With our advanced, web-based trading platform, you can trade on the largest lists of assets in the industry. From Currency pairs, and Commodities to stocks and indices, we have it all. Keep your trading costs down with competitive spreads, commissions and low margins. View spreads on our most popular cash instruments.</P>
+                <P data-aos="fade-down">The CRYPFIELD PREEMINENT is an International online broker that has been actively operating in the Crypto & Stocks Trading trading markets. With our advanced, web-based trading platform, you can trade on the largest lists of assets in the industry. From Currency pairs, and Commodities to stocks and indices, we have it all. Keep your trading costs down with competitive spreads, commissions and low margins. View spreads on our most popular cash instruments.</P>
             </Div1>
             <Div2>
                 <H1 data-aos="fade-down">Experience more than Trading.</H1>

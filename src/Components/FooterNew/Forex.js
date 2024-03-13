@@ -21,7 +21,7 @@ const Forex = () =>{
         </Wrapper>
         <Down>
             <p>
-                <H1>Trade the <span style={{color:"#E8403B"}}>FOREX</span> market with Preeminent Crypfield</H1>
+                <H1>Trade the <span style={{color:"#E8403B"}}>FOREX</span> market with CRYPFIELD PREEMINENT</H1>
                 <br/>
                 <br/>
                 The FX market is one of the world’s biggest markets. You can trade currency pairs from every corner of the world. However, there are a handful of pairs that are worth mentioning: more traded than any other currency pairs, the ‘majors’ dominate the FX market. The four most traded currency pairs in the world have been coined the ‘majors’. They involve the following currencies: euro, US dollar, Japanese yen and pound sterling

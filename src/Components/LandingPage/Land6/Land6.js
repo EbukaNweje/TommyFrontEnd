@@ -32,7 +32,7 @@ const Land6 = () => {
             <Img src={arr2} alt='arr right'/>
         </Trade>
         <H1>100% Fully Automated Binary<br/> Trading Software.</H1>
-        <P>Trade and earn with Preeminent crypfield VIP multichain decentralized exchange</P>
+        <P>Trade and earn with CRYPFIELD PREEMINENT VIP multichain decentralized exchange</P>
         <BoxHold>
             <Box data-aos="fade-down">
                 <GiHandOk style={{width: 50, height: 50, color: "#0CD5F9"}}/>

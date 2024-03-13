@@ -19,7 +19,7 @@ const Aboutus = () => {
         <H1 data-aos="fade-down">About us</H1>
            <Title>Who are we ?</Title>
            <Content1 data-aos="fade-down">
-           Since you are on the About us page, we have to introduce ourselves.<br/>So...Hello, we are a friendly preeminent crypfield team.
+           Since you are on the About us page, we have to introduce ourselves.<br/>So...Hello, we are a friendly CRYPFIELD PREEMINENT team.
            <br/>
            <br/>
            <br/>
@@ -28,7 +28,7 @@ const Aboutus = () => {
            <Down>
             <Line></Line>
             <Right data-aos="fade-down">
-            The idea of ​​creating the preeminent crypfield project originated in 2017 when the cryptocurrency market was especially volatile. High <br/> volatility made me think about arbitrage deals. These transactions were supposed to be super-fast, and as we know, transferring funds to<br/> the exchange and between them takes a lot of time. Then I remembered the strategy of "Triangular (triple) arbitrage." This strategy can be<br/> used within the framework of 1 exchange and carry out fast transactions via API. I called my school friend, who at that time was already a<br/> successful developer, and I asked him to write a small test app for one of the exchanges leading at that time. In 3 hours I had a raw version <br/>of the trading bot, which worked almost as I wanted it to.<br/>There were fails, stuttering, belated orders, but this was only a draft version. Soon we hired analysts for training the bot to work in<br/>emergency situations - PUMP / DUMP - you can earn the most from them with triple arbitrage trading. By that time, my friend (who was a<br/> developer) had already made an almost full-fledged bot, and we started making money and still do.
+            The idea of ​​creating the CRYPFIELD PREEMINENT project originated in 2017 when the cryptocurrency market was especially volatile. High <br/> volatility made me think about arbitrage deals. These transactions were supposed to be super-fast, and as we know, transferring funds to<br/> the exchange and between them takes a lot of time. Then I remembered the strategy of "Triangular (triple) arbitrage." This strategy can be<br/> used within the framework of 1 exchange and carry out fast transactions via API. I called my school friend, who at that time was already a<br/> successful developer, and I asked him to write a small test app for one of the exchanges leading at that time. In 3 hours I had a raw version <br/>of the trading bot, which worked almost as I wanted it to.<br/>There were fails, stuttering, belated orders, but this was only a draft version. Soon we hired analysts for training the bot to work in<br/>emergency situations - PUMP / DUMP - you can earn the most from them with triple arbitrage trading. By that time, my friend (who was a<br/> developer) had already made an almost full-fledged bot, and we started making money and still do.
             <br/>
             <br/>
             The idea originated in 2015, so why the platform was launched in 2018?
@@ -46,11 +46,11 @@ const Aboutus = () => {
             Sorry, forgot to introduce myself
             <br/>
             <br/>
-            {/* My name is Hardy, and I am the CEO of preeminent crypfield */}
+            {/* My name is Hardy, and I am the CEO of CRYPFIELD PREEMINENT */}
             </Right>
            </Down>
            <CertHold>
-            <H11>PREEMINENT CRYPFIELD RC: 11490018</H11>
+            <H11>CRYPFIELD PREEMINENT RC: 11490018</H11>
             <Cert src={cert} alt="certificate"/>
            </CertHold>
            <Bottom>
@@ -60,7 +60,7 @@ const Aboutus = () => {
             <br/>
             <br/>
             <Content data-aos="fade-down">
-            preeminent crypfield is a unique platform for arbitrage trading in cryptocurrency assets. Its functionality allows to carry out profitable<br/> transactions in a few clicks, no need to be a professional, or have experience in trading and understand the specifics of this activity. Our system<br/> allows engaging in arbitrage transactions in the simplest possible manner without registering on dozens of exchanges and using large<br/> amounts of money. By creating an account in our platform, you will get access to operations on popular trading platforms and will get guaranteed profits. The security level of the arbitrage trading platform is the highest. Funds storage in cold and hot wallets ensures the complete safety of our clients' funds, and modern data protection methods ensure reliable storage of information about user accounts.
+            CRYPFIELD PREEMINENT is a unique platform for arbitrage trading in cryptocurrency assets. Its functionality allows to carry out profitable<br/> transactions in a few clicks, no need to be a professional, or have experience in trading and understand the specifics of this activity. Our system<br/> allows engaging in arbitrage transactions in the simplest possible manner without registering on dozens of exchanges and using large<br/> amounts of money. By creating an account in our platform, you will get access to operations on popular trading platforms and will get guaranteed profits. The security level of the arbitrage trading platform is the highest. Funds storage in cold and hot wallets ensures the complete safety of our clients' funds, and modern data protection methods ensure reliable storage of information about user accounts.
             </Content>
             <ButtonHold>
                 <Auto>Automated Trading</Auto>

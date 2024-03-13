@@ -30,7 +30,7 @@ const Support = () => {
                 <Icon2/>
                     <Left>
                         <Title data-aos="fade-down">Send request</Title>
-                        <P data-aos="fade-down">Can't find a solution to your problem?<br/> Contact preeminent crypfield Client Support</P>
+                        <P data-aos="fade-down">Can't find a solution to your problem?<br/> Contact CRYPFIELD PREEMINENT Client Support</P>
                         <Readmore data-aos="fade-down" to='/sendrequest'>Read more</Readmore>
                     </Left>
                 </Card>

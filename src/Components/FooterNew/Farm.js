@@ -21,7 +21,7 @@ const Farm = () =>{
         </Wrapper>
         <Down>
             <p>
-                <H1>Trade the <span style={{color:"#E8403B"}}>Non-Farm Payroll</span> market with Preeminent Crypfield</H1>
+                <H1>Trade the <span style={{color:"#E8403B"}}>Non-Farm Payroll</span> market with CRYPFIELD PREEMINENT</H1>
                 <br/>
                 <br/>
                 Nonfarm payroll refers to the number of paid U.S. employees, excluding farm employees, government employees, private household employees, and employees of nonprofit organizations. The nonfarm payroll number is released on the first Friday of every month by the Bureau of Labor Statistics (BLS) as part of the Employment Situation Report. The report also includes the unemployment rate, average hourly earnings, and the number of people participating in the labor force.

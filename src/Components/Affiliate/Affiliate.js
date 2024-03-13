@@ -13,7 +13,7 @@ const Affiliate = () => {
   return (
     <Container>
         <Wrapper>
-            <H1 data-aos="fade-down">Preeminent crypfield Affiliate program is more  <span style={{color: "#015ec9"}}>profitable</span> with friends.</H1>
+            <H1 data-aos="fade-down">CRYPFIELD PREEMINENT Affiliate program is more  <span style={{color: "#015ec9"}}>profitable</span> with friends.</H1>
             <Advice>
                 <Cont>
                     <Title data-aos="fade-down">Get your link</Title>

@@ -21,7 +21,7 @@ const AssetCryp = () => {
                 <Div>
                     <IconHold data-aos="flip-down"><AiOutlinePercentage style={{width: 35, height: 35}}/></IconHold>
                     <H4>INSTITUTIONAL INVESTMENT</H4>
-                    <span>When you select preeminent crypfield to manage institutional assets, you will generate a better ROI</span>
+                    <span>When you select CRYPFIELD PREEMINENT to manage institutional assets, you will generate a better ROI</span>
                 </Div>
                 <Line></Line>
                 <Div>
@@ -33,7 +33,7 @@ const AssetCryp = () => {
                 <Div>
                     <IconHold  data-aos="flip-down"><AiOutlineQuestion style={{width: 35, height: 35}}/></IconHold>
                     <H4>ALTERNATIVES</H4>
-                    <span>As a pioneer in alternative investing., preeminent crypfield has a long track record of managing investors money</span>
+                    <span>As a pioneer in alternative investing., CRYPFIELD PREEMINENT has a long track record of managing investors money</span>
                 </Div>
             </Bottom>
         </Wrapper>
