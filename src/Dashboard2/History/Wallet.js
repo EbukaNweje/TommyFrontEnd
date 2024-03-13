@@ -59,10 +59,10 @@ const History2 = () =>{
                     </Div>
                     <Div2>Charge - 0 USD + 0%</Div2>
                     <Div3>
-                        <Button to='/tether'>Deposit</Button>
+                        <Button to='/usdt'>Deposit</Button>
                     </Div3>
                 </Card>
-                <Card>
+                {/* <Card>
                     <Img src={doge} style={{padding: "10px",color:"silver", borderRadius: "5px", width: 250, height: 250}}/>
                     <Div>
                         <Type>DOGECOIN</Type>
@@ -72,7 +72,7 @@ const History2 = () =>{
                     <Div3>
                         <Button to='/dogecoin'>Deposit</Button>
                     </Div3>
-                </Card>
+                </Card> */}
                 {/* <Card>
                     <Img src={ripple} style={{borderRadius: "50%",padding: "10px", width: 250, height: 250}}/>
                     <Div>
@@ -84,7 +84,7 @@ const History2 = () =>{
                         <Button to='/ripple'>Deposit</Button>
                     </Div3>
                 </Card> */}
-                <Card>
+                {/* <Card>
                     <Img src={bnb} style={{borderRadius: "50%",padding: "10px", width: 250, height: 250}}/>
                     <Div>
                         <Type>BNB</Type>
@@ -94,7 +94,7 @@ const History2 = () =>{
                     <Div3>
                         <Button to='/bnb'>Deposit</Button>
                     </Div3>
-                </Card>
+                </Card> */}
                 {/* <Card>
                     <BsBank style={{borderRadius: "5px",padding: "10px", width: 250, height: 250, color: "#015FC9"}}/>
                     <Div>

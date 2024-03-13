@@ -116,12 +116,12 @@ const UpdateWallet = ({Display}) => {
             <span>${props.lastDeposit}</span>
           </InputData>
 
-          <InputData>
+          {/* <InputData>
             <label>Last Withdrawal: </label>
-           {/*  <input/> */}
+            <input/>
             <button onClick={(e)=>upddatebtn(props._id,e)} title={"lastWithdrawal"}>update</button>
             <span>${props.lastWithdrawal}</span>
-          </InputData>
+          </InputData> */}
 
           <InputData>
             <label>Deposit Wallet Balance: </label>

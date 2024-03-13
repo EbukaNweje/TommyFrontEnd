@@ -12,7 +12,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 const Ethereum = () => {
 
   const [state, setState] = useState({
-    value: "0x263df6546bd8a67a6ceeb60d8bba7b538308b45f",
+    value: "0x281c28dc889b06ea5ad01f1022ec960a6e48e828",
     copied: false,
   });
 

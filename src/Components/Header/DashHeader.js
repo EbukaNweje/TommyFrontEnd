@@ -8,16 +8,19 @@ import {TbAffiliate} from 'react-icons/tb'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import {Link} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 
 const DashHeader = () => {
+
+    const NavHome = useNavigate()
 
     useEffect(() =>{
         AOS.init({duration:1000})
       },[])
 
       const user =  JSON.parse(localStorage.getItem('User'))
-      console.log(user.status)
+      console.log(user._id)
     
   return (
     <Container data-aos="fade-down">
@@ -27,8 +30,9 @@ const DashHeader = () => {
             // toggle={toggle}
             >
                 <NavHold>
+                    
                     <AiFillHome/>
-                    <Nav to='/dashboard/:userid'> Home</Nav>
+                    <Nav> <span onClick={()=> NavHome(`dashboard/${user}`)}>Home</span></Nav>
                 </NavHold>
                 <NavHold>
                     <MdOutlinePayments/>

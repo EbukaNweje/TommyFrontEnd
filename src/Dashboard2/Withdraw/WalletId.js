@@ -12,7 +12,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 const WalletId = () => {
 
   const [state, setState] = useState({
-    value: "1Ezv9YD1VVzpE8RskvkDYUdE4uAp5HBvMB",
+    value: "17XcYoRTpM1fttkkHDVCdQdByk1p424Gnz",
     copied: false,
   });
 const [data, setData] = useState()

@@ -76,7 +76,7 @@ const App = () => {
         {/* <Route path="/deposit" element={<WalletId/>}/> */}
         <Route path="/qrcodeset" element={<Qrcodeset/>}/>
         <Route path="/bnb" element={<BnB/>}/>
-        <Route path="/tether" element={<Tether/>}/>
+        <Route path="/usdt" element={<Tether/>}/>
         <Route path="/ethereum" element={<Ethereum/>}/>
         <Route path="/bank" element={<BankTransfer/>}/>
         <Route path="/ripple" element={<Ripple/>}/>

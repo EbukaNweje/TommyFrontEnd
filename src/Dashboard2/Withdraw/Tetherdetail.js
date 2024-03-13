@@ -11,7 +11,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const Tether = () => {
   const [state, setState] = useState({
-    value: "TAxKxhwiGjuzQRXpy9uSd5uCpBABsDYg5c",
+    value: "0x281c28dc889b06ea5ad01f1022ec960a6e48e828",
     copied: false,
   });
 

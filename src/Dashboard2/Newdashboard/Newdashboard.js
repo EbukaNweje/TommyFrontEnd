@@ -108,8 +108,8 @@ const [data, setData] = useState()
           </InputHold>
             <InputHold>
             <Left>
-              <Title>Last Withdrawal</Title>
-              <Price>${data?.lastWithdrawal}.00</Price>
+              <Title>Last Deposit </Title>
+              <Price>${data?.lastDeposit}.00</Price>
             </Left>
             <Right>
               <AiOutlineCloud style={{width: 45, height: 45, color: "#BF2024"}}/>
