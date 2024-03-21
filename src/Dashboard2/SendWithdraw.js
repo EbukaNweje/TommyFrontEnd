@@ -16,11 +16,13 @@ const SendWithdrawReq = () => {
     const [bankName, setBankname] = useState("")
     const [accountNumber, setAcctnumber] = useState("")
     const [amounttoWithdraw, setAmount] = useState("")
+    const [isAble, setIsable] = useState(true)
 
     const data = {withdrawalWallet, email, yourusername, appealHeader, bankName, accountNumber, amounttoWithdraw}
     const url = "https://tommybackend.onrender.com/api/requestaccount"
 
     const sendReqest = (e) => {
+        setIsable(false)
         e.preventDefault()
         Axios.post(url, data)
         .then((res) => {
@@ -37,6 +39,7 @@ const SendWithdrawReq = () => {
          setEmail("")
          setWithdrawalWallet("")
          setUsername("")
+         setIsabled(true)
         // window.location.reload();
         }
         )
@@ -132,7 +135,7 @@ const SendWithdrawReq = () => {
                         <Input2 placeholder='describe your question / issue'/>
                     </InputHold2> */}
                     <InputHold2>
-                    <Button onClick={(e) => sendReqest(e)}>Send Request</Button>
+                    <Button onClick={(e) => sendReqest(e)}>{isAble ? "Send Request" : "Sending...."}</Button>
                     </InputHold2>
             </Form>
         </Wrapper2>
