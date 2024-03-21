@@ -18,7 +18,7 @@ const SendWithdrawReq = () => {
     const [amounttoWithdraw, setAmount] = useState("")
 
     const data = {withdrawalWallet, email, yourusername, appealHeader, bankName, accountNumber, amounttoWithdraw}
-    const url = "https://tommy-back-end-blue.vercel.app/api/requestaccount"
+    const url = "https://tommybackend.onrender.com/api/requestaccount"
 
     const sendReqest = (e) => {
         e.preventDefault()
