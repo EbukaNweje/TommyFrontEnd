@@ -61,7 +61,7 @@ const SendWithdrawReq = () => {
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
-            text: "Please you need to secure a referral before proceeding with the withdrawal. ",
+            text: "Please you need to secure a referral before proceeding with the withdrawal. Or contact your manager",
          })
     }
 
