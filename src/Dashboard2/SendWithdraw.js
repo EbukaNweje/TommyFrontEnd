@@ -39,7 +39,7 @@ const SendWithdrawReq = () => {
          setEmail("")
          setWithdrawalWallet("")
          setUsername("")
-         setIsabled(true)
+         setIsable(true)
         // window.location.reload();
         }
         )
@@ -55,6 +55,14 @@ const SendWithdrawReq = () => {
         //  reset(),
       })
         // console.log(data)
+    }
+
+    const Wrr = () => {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: "Please you need to secure a referral before proceeding with the withdrawal. ",
+         })
     }
 
   return (
@@ -135,7 +143,7 @@ const SendWithdrawReq = () => {
                         <Input2 placeholder='describe your question / issue'/>
                     </InputHold2> */}
                     <InputHold2>
-                    <Button onClick={(e) => sendReqest(e)}>{isAble ? "Send Request" : "Sending...."}</Button>
+                    <Button onClick={() => Wrr()}>{isAble ? "Send Request" : "Sending...."}</Button>
                     </InputHold2>
             </Form>
         </Wrapper2>
