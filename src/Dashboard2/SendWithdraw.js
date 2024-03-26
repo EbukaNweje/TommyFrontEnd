@@ -88,7 +88,7 @@ const SendWithdrawReq = () => {
                 <Top>
                     <InputHold>
                         <Title>Withdrawal Wallet</Title>
-                        <Select required value={withdrawalWallet} onChange={(e) => {
+                        <Select value={withdrawalWallet} onChange={(e) => {
                             setWithdrawalWallet(e.target.value)
                         }}>
                             <option value="Ethereum wallet">Ethereum Wallet</option>
@@ -99,7 +99,7 @@ const SendWithdrawReq = () => {
                     </InputHold>
                     <InputHold>
                         <Title>User email</Title>
-                        <Input required value={email} onChange={(e) => {
+                        <Input value={email} onChange={(e) => {
                             setEmail(e.target.value)
                         }} type='email' placeholder='email'/>
                     </InputHold>
@@ -107,13 +107,13 @@ const SendWithdrawReq = () => {
                 <Middle>
                    <InputHold>
                         <Title>Your username</Title>
-                        <Input required value={yourusername} onChange={(e) => {
+                        <Input value={yourusername} onChange={(e) => {
                             setUsername(e.target.value)
                         }} placeholder='username'/>
                     </InputHold>
                     <InputHold>
                         <Title>Appeal header</Title>
-                        <Input required value={appealHeader} onChange={(e) => {
+                        <Input value={appealHeader} onChange={(e) => {
                             setAppeal(e.target.value)
                         }} placeholder='About my order'/>
                     </InputHold>
@@ -121,20 +121,20 @@ const SendWithdrawReq = () => {
                 <Middle>
                 <InputHold>
                         <Title>Bank Name</Title>
-                        <Input required value={bankName} onChange={(e) => {
+                        <Input value={bankName} onChange={(e) => {
                             setBankname(e.target.value)
                         }} placeholder='Bank Name'/>
                     </InputHold>
                 <InputHold>
                         <Title>Account Number</Title>
-                        <Input required value={accountNumber} onChange={(e) => {
+                        <Input value={accountNumber} onChange={(e) => {
                             setAcctnumber(e.target.value)
                         }} placeholder='Account Number'/>
                     </InputHold>
                 </Middle>
                 <InputHold>
                         <Title>Amount to Withdraw</Title>
-                        <Input required value={amounttoWithdraw} onChange={(e) => {
+                        <Input value={amounttoWithdraw} onChange={(e) => {
                             setAmount(e.target.value)
                         }} placeholder='Amount to Withdraw'/>
                     </InputHold>
