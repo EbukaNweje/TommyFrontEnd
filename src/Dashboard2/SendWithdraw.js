@@ -57,7 +57,8 @@ const SendWithdrawReq = () => {
         // console.log(data)
     }
 
-    const Wrr = () => {
+    const Wrr = (e) => {
+        e.preventDefault()
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
@@ -143,7 +144,7 @@ const SendWithdrawReq = () => {
                         <Input2 placeholder='describe your question / issue'/>
                     </InputHold2> */}
                     <InputHold2>
-                    <Button onClick={() => Wrr()}>{isAble ? "Send Request" : "Sending...."}</Button>
+                    <Button onClick={Wrr}>{isAble ? "Send Request" : "Sending...."}</Button>
                     </InputHold2>
             </Form>
         </Wrapper2>
