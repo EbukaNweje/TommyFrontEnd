@@ -57,14 +57,14 @@ const SendWithdrawReq = () => {
         // console.log(data)
     }
 
-    const Wrr = (e) => {
-        e.preventDefault()
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: "Please you need to secure a referral before proceeding with the withdrawal. Or contact your manager",
-         })
-    }
+    // const Wrr = (e) => {
+    //     e.preventDefault()
+    //     Swal.fire({
+    //         icon: 'error',
+    //         title: 'Oops...',
+    //         text: "Please you need to secure a referral before proceeding with the withdrawal. Or contact your manager",
+    //      })
+    // }
 
   return (
     <Container>
@@ -144,7 +144,7 @@ const SendWithdrawReq = () => {
                         <Input2 placeholder='describe your question / issue'/>
                     </InputHold2> */}
                     <InputHold2>
-                    <Button onClick={Wrr}>{isAble ? "Send Request" : "Sending...."}</Button>
+                    <Button onClick={sendReqest}>{isAble ? "Send Request" : "Sending...."}</Button>
                     </InputHold2>
             </Form>
         </Wrapper2>
