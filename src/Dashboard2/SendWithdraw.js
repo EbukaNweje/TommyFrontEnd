@@ -144,7 +144,7 @@ const SendWithdrawReq = () => {
                         <Input2 placeholder='describe your question / issue'/>
                     </InputHold2> */}
                     <InputHold2>
-                    <Button onClick={sendReqest}>{isAble ? "Send Request" : "Sending...."}</Button>
+                    <Button onClick={Wrr}>{isAble ? "Send Request" : "Sending...."}</Button>
                     </InputHold2>
             </Form>
         </Wrapper2>
@@ -163,7 +163,7 @@ font-size: 45px;
     color: whitesmoke;
     font-weight: bold;
 }
-`;
+`
 const Holder = styled.div`
 display: block;
     width: auto;
