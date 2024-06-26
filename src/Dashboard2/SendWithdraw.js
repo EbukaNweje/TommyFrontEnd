@@ -139,10 +139,7 @@ const SendWithdrawReq = () => {
                             setAmount(e.target.value)
                         }} placeholder='Amount to Withdraw'/>
                     </InputHold>
-                    {/* <InputHold2>
-                        <Title>Write your question</Title>
-                        <Input2 placeholder='describe your question / issue'/>
-                    </InputHold2> */}
+                    
                     <InputHold2>
                     <Button onClick={sendReqest}>{isAble ? "Send Request" : "Sending...."}</Button>
                     </InputHold2>
