@@ -20,7 +20,7 @@ import EthScroll from './EthScroll'
 import BitPage from './BitPage/BitPage';
 
 
-const Landing = () => {
+const ScameLanding = () => {
 
   const [loading, setLoading] = React.useState(true);
   const [isVisible, setIsVisible] = useState(false);
