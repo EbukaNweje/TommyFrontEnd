@@ -182,7 +182,7 @@ const ScameLanding = () => {
   )
 }
 
-export default Landing;
+export default ScameLanding;
 
 const Container = styled.div`
 width: 100%;
