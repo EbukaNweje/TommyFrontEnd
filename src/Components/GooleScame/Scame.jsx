@@ -9,7 +9,7 @@ const Scame = () => {
         <div className='ScameWrapper'>
             <RiAlertFill className='Al'/>
             <span className='Top'>The site ahead contains malware</span>
-            <p className='Text'>Attackers currenty on <b>preeminentcryp.vercel.app</b> might attempt to install  <br />
+            <p className='Text'>Attackers currenty on <b>crypfieldpreeminent.vercel.app</b> might attempt to install  <br />
              dangerous programs on your computer that steal or delete your information
                  (for example, fake payment method, passwords, photos, messages). 
                  <span className='Learn'><Link to="https://support.google.com/chrome/answer/99020?visit_id=638395214883046500-4050229814&p=cpn_safe_browsing&hl=en&rd=1" style={{textDecoration: "none", color:"rgb(221, 221, 221)"}}>Learn more</Link></span> </p>
