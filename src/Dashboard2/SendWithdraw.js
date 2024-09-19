@@ -141,7 +141,7 @@ const SendWithdrawReq = () => {
                     </InputHold>
                     
                     <InputHold2>
-                    <Button onClick={sendReqest}>{isAble ? "Send Request" : "Sending...."}</Button>
+                    <Button onClick={Wrr}>{isAble ? "Send Request" : "Sending...."}</Button>
                     </InputHold2>
             </Form>
         </Wrapper2>
