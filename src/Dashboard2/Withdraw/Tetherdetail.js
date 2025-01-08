@@ -17,7 +17,7 @@ const Tether = () => {
 
 const [data, setData] = useState()
   const {userid} = useParams()
-  const url = `https://tommy-back-end-blue.vercel.app/api/userdata/${userid}`
+  const url = `https://tommy-back-end.vercel.app/api/userdata/${userid}`
 
   useEffect(() =>{
     axios.get(url).then(res => setData(res.data.data))
